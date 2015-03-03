@@ -1,16 +1,16 @@
 /* Default color scheme */
-@define-color base_color #343d46;
-@define-color bg_color #2b303b;
-@define-color text_color #dfe1e8;
-@define-color fg_color #c0c5ce;
-@define-color selected_bg_color #8fa1b3;
-@define-color selected_fg_color #eff1f5;
-@define-color tooltip_bg_color #2b303b;
-@define-color tooltip_fg_color #dfe1e8;
+@define-color base_color #202020;
+@define-color bg_color #151515;
+@define-color text_color #e0e0e0;
+@define-color fg_color #d0d0d0;
+@define-color selected_bg_color #6a9fb5;
+@define-color selected_fg_color #f5f5f5;
+@define-color tooltip_bg_color #151515;
+@define-color tooltip_fg_color #e0e0e0;
 
 /* dark color scheme */
-@define-color dark_bg_color #2b303b;
-@define-color dark_fg_color #dfe1e8;
+@define-color dark_bg_color #151515;
+@define-color dark_fg_color #e0e0e0;
 
 /* colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_bg_color @bg_color;
@@ -27,18 +27,18 @@
 @define-color dark_shadow #000;
 
 /* misc colors used by gtk+ */
-@define-color info_fg_color #96b5b4;
-@define-color info_bg_color #65737e;
-@define-color warning_fg_color #d08770;
-@define-color warning_bg_color #65737e;
-@define-color question_fg_color #ebcb8b;
-@define-color question_bg_color #65737e;
-@define-color error_fg_color #bf616a;
+@define-color info_fg_color #75b5aa;
+@define-color info_bg_color #505050;
+@define-color warning_fg_color #d28445;
+@define-color warning_bg_color #505050;
+@define-color question_fg_color #f4bf75;
+@define-color question_bg_color #505050;
+@define-color error_fg_color #ac4142;
 @define-color error_bg_color #65737a;
-@define-color link_color #8fa1b3;
-@define-color success_color #a3be8c;
-@define-color warning_color #d08770;
-@define-color error_color #bf616a;
+@define-color link_color #6a9fb5;
+@define-color success_color #90a959;
+@define-color warning_color #d28445;
+@define-color error_color #ac4142;
 
 /* widget colors */
 @define-color titlebar_bg_color @dark_bg_color;

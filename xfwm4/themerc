@@ -3,8 +3,8 @@
 # License: GPL-3.0+
 
 <<<<<<< HEAD
-active_text_color=#dfe1e8
-inactive_text_color=#a7adba
+active_text_color=#e0e0e0
+inactive_text_color=#b0b0b0
 button_offset=6
 button_spacing=6
 =======
