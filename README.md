@@ -1,16 +1,23 @@
-This is the excellent Numix theme, altered to use Base16 Ocean colors (see link below). It's a clean, desaturated, bluish theme.
+Numix, but modified to use the colors from the base16 color scheme. Tested against gtk2, but should work with gtk3, metacity, openbox, unity, xfce-notify, and xfwm4. 
 
-As of right now, I've edited the GTK2, GTK3, XFWM4, and Openbox themes to use Base16 Ocean colors. The GTK3 theme contains several graphical assets which I will need to change. Then I can move on to Metacity, etc.
+### Usage
 
-### Requirements
+#### Global install
 
-* GTK+ 3.6 or above
-* Murrine theme engine
+    git clone git@github.com:robertseaton/numix-base16.git
+    sudo cp -r numix-base16 /usr/share/themes
+    
+#### Local install (untested)
+
+    git clone git@github.com:robertseaton/numix-base16.git
+    cp -r numix-base16 ~/.themes
+
+Then update your running theme with a program like `lxappearance` or `gtk-chtheme`. 
 
 ### Code, license, credits
 
-Original [Numix Theme](https://github.com/shimmerproject/Numix)
-Original [Base16 Ocean Color Scheme](http://chriskempson.github.io/base16/#ocean)
+* I've forked the theme from [Numix-Ocean](https://github.com/aaronjamesyoung/Numix-Ocean), who forked it from the [Numix Theme](https://github.com/shimmerproject/Numix). 
+* Color scheme is base16-default, [found here.](https://github.com/chriskempson/base16)
 
 License: GPL-3.0+
 
